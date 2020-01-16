@@ -19,5 +19,6 @@ def find_the_cheese(array)# code an argument here
   myVal = array.any? {|x| cheese_types.include?(x)}
   if(!myVal)
     return nil
+  end
   myVal
 end
