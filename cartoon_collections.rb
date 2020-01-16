@@ -16,9 +16,13 @@ end
 def find_the_cheese(array)# code an argument here
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
-  myVal = array.any? {|x| cheese_types.include?(x)}
-  if(!myVal)
-    return nil
+  index = 0
+  return_value = nil
+  while(array[index]) do
+    if(cheese_types.include?(array[index])))
+      return_value = array[index]
+    end
+    index+=1
   end
-  myVal
+  return_value
 end
