@@ -16,16 +16,6 @@ end
 def find_the_cheese(array)# code an argument here
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
-  #index = 0
-  #return_value = nil
-  #while(array[index]) do
-  #  if(cheese_types.include?(array[index]))
-  #    return_value = array[index]
-  #    break
-  #  end
-  #  index+=1
-  #end
-  #return_value
   value = nil
   array.any? {|x| cheese_types.include?(x) ? value = x : value = nil}
   value
