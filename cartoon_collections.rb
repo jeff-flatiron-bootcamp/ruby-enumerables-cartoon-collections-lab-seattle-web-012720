@@ -19,7 +19,7 @@ def find_the_cheese(array)# code an argument here
   index = 0
   return_value = nil
   while(array[index]) do
-    if(cheese_types.include?(array[index])))
+    if(cheese_types.include?(array[index]))
       return_value = array[index]
     end
     index+=1
