@@ -3,7 +3,8 @@ def roll_call_dwarves(dwarves)# code an argument here
   array = []
   dwarves.each_with_index{|item,index| array[index] = "\n" + item}
   array.each{|item| p item}
-  array
+  p array
+  
 end
 
 def summon_captain_planet# code an argument here
