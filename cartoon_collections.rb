@@ -2,7 +2,7 @@ def roll_call_dwarves(dwarves)# code an argument here
   # Your code here
   array = []
   array = dwarves.each_with_index{|dwarf,index| p "\"" + dwarf + "\""}
-  
+  p array
 end
 
 def summon_captain_planet# code an argument here
