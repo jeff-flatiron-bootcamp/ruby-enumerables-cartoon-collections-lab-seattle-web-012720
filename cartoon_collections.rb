@@ -1,7 +1,7 @@
 def roll_call_dwarves(dwarves)# code an argument here
   # Your code here
   array = []
-  array = dwarves.each_with_index{|dwarf,index| p "/#{index}" + dwarf }
+  array = dwarves.each_with_index{|dwarf,index| p "/#{index+1}." + dwarf }
   p array
 end
 
