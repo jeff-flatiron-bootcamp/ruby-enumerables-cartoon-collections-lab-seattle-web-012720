@@ -27,6 +27,6 @@ def find_the_cheese(array)# code an argument here
   #end
   #return_value
   value = nil
-  array.any? {|x} cheese_types.include?(x) ? value = x : value = nil}
+  array.any? {|x| cheese_types.include?(x) ? value = x : value = nil}
   value
 end
